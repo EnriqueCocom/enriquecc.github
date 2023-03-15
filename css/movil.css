@@ -1,0 +1,89 @@
+@import url("estilo.css");
+@media screen and (max-width: 480px) {
+  header {
+    padding: 20px;
+  }
+  nav {
+    width: 100%;
+    display: none;
+  }
+  nav div {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(216, 38, 38, 0.705);
+  }
+  nav a {
+    width: 100%;
+    border-bottom: 1px white dotted;
+  }
+  .infopersonal figure {
+    display: none;
+  }
+  #arriba figure {
+    display: none;
+  }
+
+  #arriba {
+    width: 95%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+  #menu {
+    display: block;
+  }
+  .infopersonal h3 {
+    padding-top: 15px;
+  }
+  .datospersonales {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .datospersonales .nombre {
+    text-align: center;
+  }
+  .datospersonales .redes {
+    text-align: center;
+    padding-top: 15px;
+  }
+  .programas {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  #cont_call {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .texto p {
+    text-align: center;
+  }
+  .portafolio {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px;
+  }
+  .localizacion {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  footer a {
+    margin-bottom: 15px;
+  }
+  .redesociales {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .iconofooter {
+    margin-bottom: 15px;
+  }
+}
